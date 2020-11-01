@@ -6,8 +6,8 @@
 
 daphne.yang@berkeley.edu
 
-<b> Master of Information and Data Science</b>
-Expected Graduation: Summer 2021  
+<b> Master of Information and Data Science</b>  
+<i>Expected Graduation</i>: Summer 2021  
 University of California, Berkeley 
 
 <b> Bachelor of Arts in Public Health</b>  
