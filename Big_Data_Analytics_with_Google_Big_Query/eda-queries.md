@@ -2,7 +2,7 @@
 
 Through this project, I ultimately want to answer these questions: 
 
-  * What are the 5 most popular trips that you would call "commuter trips"?
+  * What are the 5 most popular trips that I would call "commuter trips"?
       - Will require some feature engineering to define "commuter trip"
       - I defined a commuter trip as a trip satisfying all of the following requirements:  
 
@@ -12,7 +12,7 @@ Through this project, I ultimately want to answer these questions:
 2. a trip not lasting a minimum of 2 minutes and not in excess of 60 minutes
     - This was determined according to a post by [mobilitylab.org](https://mobilitylab.org/2017/02/27/how-far-bike-work/) that stated a bike commute to work should be not in excess of 10 miles, roughly a 60 minute bike commute.
    
-  * What are your recommendations for offers (presented in bikeshare_analysis.ipynb)?
+  * What are my recommendations for offers (presented in bikeshare_analysis.ipynb)?
 
 
 I separated my project into 3 parts:
@@ -29,7 +29,7 @@ I separated my project into 3 parts:
 
 ### Some initial queries
 
-Paste your SQL query and answer the question in a sentence.  Be sure you properly format your queries and results using markdown. 
+Pasted my formatted SQL query and answered the question. 
 
 - What's the size of this dataset? (i.e., how many trips)
 
@@ -398,9 +398,12 @@ where start_station_name <> end_station_name
 limit 10
 ```
 
+And then call the data frame in a Python Kernel Jupyter Notebook like this: 
+
 ```python
 my_panda_data_frame
 ```
+
 ** Note: I chose to run queries using the "bang" command to shell out.
 
 
